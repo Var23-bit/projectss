@@ -1,9 +1,10 @@
 {
   "name": "backend-course",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "node2.js",
+  "type" : "module",
   "scripts": {
-    "start": "node node10.js",
+    "start": "node node2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
