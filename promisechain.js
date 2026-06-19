@@ -1,6 +1,7 @@
 const cart = ["apple", "banana", "orange"];
 const promise = createorder(cart);
-promise.then(function(orderID){
+promise
+.then(function(orderID){
     console.log(orderID);
     //return processpayment(orderID);
 })
