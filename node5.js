@@ -1,1 +1,2 @@
-console.log("hey!there i want js");
+const math = require("./math");
+console.log("value is" ,math);
