@@ -4,8 +4,8 @@
   "main": "server.js",
   "type" : "module",
   "scripts": {
-    "start": "nodemon --env-file=.env server.js"
-    
+    "start": "nodemon --env-file=.env server.js",
+    "youtube": "node node5.js"
   },
   "keywords": [],
   "author": "",
