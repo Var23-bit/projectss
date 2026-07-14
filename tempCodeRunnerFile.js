@@ -1,1 +1,1 @@
-console.log("getname");
+MOCK_DATA.json

@@ -2,10 +2,9 @@
   "name": "backend-course",
   "version": "1.0.0",
   "main": "server.js",
-  
   "scripts": {
     "start": "nodemon --env-file=.env server.js",
-    "youtube": "node node5.js"
+    "youtube": "node index.js"
   },
   "keywords": [],
   "author": "",
