@@ -4,6 +4,14 @@ const fs = require('fs');
 const app = express();
 const PORT=3000;
 app.use(express.urlencoded({ extended: false}));
+app.use((req,res,next) => {
+    console.log("hello from middleware 1");
+    next();
+});
+app.use((req,res,next) => {
+    console.log("hello from middleware 2");
+    next();
+});
 app.get("/users", (req, res) => {
     res.json(users);
 });
