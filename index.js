@@ -3,6 +3,7 @@ const users = require('./MOCK_DATA.json');
 const fs = require('fs');
 const app = express();
 const PORT=3000;
+app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false}));
 app.use((req,res,next) => {
     console.log("hello from middleware 1");
