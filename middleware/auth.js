@@ -1,4 +1,4 @@
-async function authenticateintUseronly(req, res, next) {
+async function authenticateinUseronly(req, res, next) {
     const { email, password } = req.body;
     const user = await User.findOne({ email
     });
@@ -12,3 +12,4 @@ async function authenticateintUseronly(req, res, next) {
     req.user = user;
     next();
 }
+module.exports = { authenticateinUseronly };
